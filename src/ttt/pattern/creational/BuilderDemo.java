@@ -6,7 +6,7 @@ package ttt.pattern.creational;
  * @project design-pattern
  * 建造者模式：当一个对象的结构相对复杂，实例化逻辑比较多时，将实例化放到构造函数中会使该类变得体量庞大，最好将实例化过程抽离，由建造者来进行
  * 和工厂的区别在于工厂不干涉类实例化的具体逻辑
- * 本例中为了方便，仅为Car类添加了两个属性
+ * 本例中为了方便，仅为Car类添加了两个属性，实际上用到建造者的地方通常不会这么简单
  */
 public class BuilderDemo {
     public static void main(String[] args){
