@@ -4,7 +4,7 @@ package ttt.pattern.creational;
  * @author ttt
  * @date 2023/7/1
  * @project design-pattern 
- * 单例模式：一个对象只能创建一个实例，如各种配置类、工具类、业务逻辑类、前端控制器等
+ * 单例模式：一个对象仅能创建一个实例，如各种配置类、工具类、业务逻辑类、前端控制器等
  */
 
 
