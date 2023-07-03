@@ -5,6 +5,7 @@ package ttt.pattern.creational;
  * @date 2023/7/2
  * @project design-pattern
  * 工厂模式：增加了工厂类专门用来实例化对象，打破主类与具体实例类的耦合。分为简单工厂模式和抽象工厂模式(比如仅创建单一类型的工厂方法模式)。
+ * 交互对象：工厂类（抽象+具体）
  */
 public class FactoryDemo {
 
