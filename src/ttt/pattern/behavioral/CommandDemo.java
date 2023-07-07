@@ -6,7 +6,7 @@ package ttt.pattern.behavioral;
  * @project design-pattern
  * 命令模式：将请求封装到一个命令对象中，传给命令调用对象，命令调用对象再根据具体的命令执行代码。解除了行为请求者与行为实现者的紧耦合关系。
  * 交互对象：命令调用者，抽象的命令接口，具体的命令类
- * 典型案例：实现行为的撤销\重做
+ * 典型案例：实现行为的撤销\重做（需要搭配命令队列）
  */
 public class CommandDemo {
     public static void main(String[] args){
